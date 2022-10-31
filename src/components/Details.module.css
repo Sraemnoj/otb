@@ -1,0 +1,12 @@
+.container{
+  font-size: 0.8em;
+}
+
+.text{
+  margin: 0.2em 0; 
+  color: #616161
+}
+
+.bold{
+  font-weight: bold;
+}

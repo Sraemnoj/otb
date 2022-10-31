@@ -1,0 +1,60 @@
+[
+  {
+    "resort": {
+      "hotel": "Iberostar Grand Salome",
+      "area": "Costa Adeje",
+      "name" : "Tenerife",
+      "rating": 5,
+      "overview": "The Iberostar Grand Salomehas an exceptional location in the south of Tenrife, overlooking the Atlantic Ocean. It is situated detween the Golf delSur and the Amarillo Golf COurses, and is an ideal hotel for familes couples and groups who are looking for a holiday full of sport, sun and sea.",
+      "photo": "/assets/hotel-image-1.png"
+    },
+    "flightDetails": {
+      "departureAirport": "East Midlands",
+      "departureDate": "2019-07-03T00:00:00.000Z"
+    },
+    "bookingDetails":{
+      "basedOn": { "numAdults": 2, "numChildren": 2 ,"numInfants":1 },
+      "lengthOfStay": 7,
+      "price": 1136.50
+    }
+  },
+  {
+    "resort":{
+      "hotel": "Aguamarina Golf Hotel",
+      "area": "Costa Adeje",
+      "name" : "Tenerife",
+      "rating": 4,
+      "overview": "The Hotel Aguamarina Golf has an exceptional location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Golf del Sur and the Amarillo Golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+      "photo": "/assets/hotel-image-2.png"
+    },
+    "flightDetails":{
+      "departureAirport": "Liverpool",
+      "departureDate": "2019-05-27T00:00:00.000Z"
+    },
+    "bookingDetails":{
+      "basedOn": { "numAdults": 2, "numChildren": 1 },
+      "lengthOfStay": 7,
+      "price": 696.80
+    }
+  },
+  {
+    "resort":{
+      "hotel": "Las Piramides Resort",
+      "area": "Costa Adeje",
+      "name" : "Tenerife",
+      "rating": 3,
+      "overview": "What do you get when you combine comfortable rooms, located in the heart of the action and all for a budget-friendly price? A very, very good holiday. That's what. Hugely popular with the young and lively crowd, the Las Piramides Resort offers simple, budget accommodation for those looking to be right amongst it. At just 350m from the famous Veronicas Strip and 50m from the nearest shops, bars and restaurants, the property is perfectly located for nights out on the town. There’s also an outdoor swimming pool that is perfect for a chill-out session too.",
+      "photo": "/assets/hotel-image-3.png"
+    },
+    "flightDetails":{
+      "departureAirport": "Manchester",
+      "departureDate": "2019-07-03T00:00:00.000Z"
+    },
+    "bookingDetails":{
+      "basedOn": { "numAdults": 2, "numChildren": 2 },
+      "lengthOfStay": 7,
+      "price": 499.99
+    }
+  }
+
+]

@@ -1,0 +1,19 @@
+.button{
+  border: none;
+  background-color: #FEDC07;
+  color:#17317F;
+  width: 100%;
+  border-radius: 4px;
+  padding:0.5em;
+  margin-top: 0.5em;
+}
+
+.label{
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.price{
+  font-size: 1em;
+  font-weight: 500;
+}

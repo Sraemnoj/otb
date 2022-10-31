@@ -1,0 +1,29 @@
+.container {
+  display:grid;
+  grid-template-columns: 8fr 4fr;
+  margin-bottom:2rem;
+  padding-left:0;
+  padding-right:0;
+}
+
+.body {
+  padding:20px;
+  background-color: #ffffff;
+}
+
+.hotel{
+  color:#17317F;
+  font-size: 1.1rem;
+  margin-bottom: 0.3em
+}
+
+.location{
+  font-size: 1rem;
+  color: #A7A7A7;
+  margin-bottom: 0.3em
+
+}
+
+.photo{
+  position: relative;
+}
