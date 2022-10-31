@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import sortBtnStyles from "./SortButton.module.css";
+import sortBtnStyles from "./SortButton.module.scss";
 
 const SortButton = ({
   activeOption,

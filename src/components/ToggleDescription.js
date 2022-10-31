@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import toggleStyles from "./ToggleDescription.module.css";
+import toggleStyles from "./ToggleDescription.module.scss";
 
 const ToggleDescription = ({
   isToggled,

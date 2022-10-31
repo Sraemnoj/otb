@@ -1,7 +1,9 @@
+@import '../variables';
+
 .button{
   border: none;
-  background-color: #FEDC07;
-  color:#17317F;
+  background-color: $yellow;
+  color: $blue;
   width: 100%;
   border-radius: 4px;
   padding:0.5em;

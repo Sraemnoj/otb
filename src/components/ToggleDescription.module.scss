@@ -1,6 +1,8 @@
+@import '../variables';
+
 .container{
   position: absolute;
-  background-color: #ffffff;
+  background-color: $white;
   bottom:0;
   left: 0;
   padding: 0.5em;
@@ -9,8 +11,8 @@
 
 .descriptionBtn{
   border: none;
-  background-color: #FFFFFF;
-  color:#17317F;
+  background-color: $white;
+  color: $blue;
   width: 100%;
   text-align: left;
   font-size: 0.9em;
@@ -35,17 +37,17 @@
 .descriptionContainer{
   grid-column-start: 1;
   grid-column-end: 3;
-  background-color: #FFFFFF;
+  background-color: $white;
   padding: 1em;
   grid-row: span 2;
 }
 
 .title{
-  font-size: 1em;
-  color:#17317F;
+  font-size: 0.9em;
+  color: $blue;
 }
 
 .text{
-  color: #616161;
+  color: $darkgrey;
   font-size: 0.8em;
 }

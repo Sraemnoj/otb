@@ -3,7 +3,7 @@ import {
   faSterlingSign,
   faSort,
 } from "@fortawesome/free-solid-svg-icons";
-import styles from "./SortControls.module.css";
+import styles from "./SortControls.module.scss";
 import SortButton from "./SortButton";
 
 const SortControls = ({ activeOption, handleSort }) => {

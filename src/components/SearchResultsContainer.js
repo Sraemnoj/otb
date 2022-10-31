@@ -5,7 +5,7 @@ import SortControls from "./SortControls";
 
 import resultsData from "../api/data.json";
 
-import layoutStyle from "./Layout.module.css";
+import layoutStyle from "./Layout.module.scss";
 
 const SearchResultsContainer = () => {
   const [sort, setSort] = useState("bookingDetails.price");

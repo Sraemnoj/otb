@@ -1,4 +1,4 @@
-import styles from "./BookNow.module.css";
+import styles from "./BookNow.module.scss";
 
 const FormatPrice = ({ currencySymbol, price }) => {
   const priceFormat = new Intl.NumberFormat("en-GB", {

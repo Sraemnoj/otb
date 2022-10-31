@@ -1,4 +1,4 @@
-import detailStyles from "./Details.module.css";
+import detailStyles from "./Details.module.scss";
 
 const FlightItinery = ({ departureAirport }) => {
   return (

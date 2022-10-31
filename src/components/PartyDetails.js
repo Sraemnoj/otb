@@ -1,6 +1,6 @@
 import pluralise from "../utils/pluralise";
 
-import detailStyles from "./Details.module.css";
+import detailStyles from "./Details.module.scss";
 
 const PartyDetails = ({ basedOn }) => {
   const { numAdults, numChildren, numInfants } = basedOn;

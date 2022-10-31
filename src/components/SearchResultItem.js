@@ -11,15 +11,15 @@ import HotelDetails from "./HotelDetails";
 import FlightItinery from "./FlightItinery";
 import Departure from "./Departure";
 
-import itemStyles from "./SearchResultItem.module.css";
-import starStyles from "./StarRating.module.css";
-import toggleStyles from "./ToggleDescription.module.css";
+import itemStyles from "./SearchResultItem.module.scss";
+import starStyles from "./StarRating.module.scss";
+import toggleStyles from "./ToggleDescription.module.scss";
 
 const SearchResultItem = ({ item }) => {
   const [showDesc, toggleShowDesc] = useState(false);
   const { resort, bookingDetails, flightDetails } = item;
   return (
-    <>
+    <article>
       <div className={itemStyles.container}>
         <PhotoBG className={itemStyles.photo} photo={resort.photo}>
           <ToggleDescription
@@ -50,51 +50,7 @@ const SearchResultItem = ({ item }) => {
           </div>
         )}
       </div>
-      {/* <Row className={itemStyles.container}>
-        <Col>
-          <Row>
-            <Col xs={12} md={8} className={itemStyles.photo}>
-              <PhotoBG photo={resort.photo}>
-                <ToggleDescription
-                  text="about this hotel"
-                  expandedText="Read less"
-                  collapsedText="Read more"
-                  handleToggle={toggleShowDesc}
-                  isToggled={showDesc}
-                  icon={faChevronRight}
-                />
-              </PhotoBG>
-            </Col>
-            <Col xs={12} md={4} className={itemStyles.body}>
-              <HotelDetails resort={resort} />
-
-              <StarRating score={resort.rating} starClass={starStyles.yellow} />
-              <PartyDetails basedOn={bookingDetails.basedOn} />
-              <Departure
-                date={flightDetails.departureDate}
-                lengthOfStay={bookingDetails.lengthOfStay}
-              />
-              <FlightItinery
-                departureAirport={flightDetails.departureAirport}
-              />
-              <BookNow cost={bookingDetails.price} />
-            </Col>
-          </Row>
-          {showDesc && (
-            <Row>
-              <Col>
-                <div className={toggleStyles.descriptionContainer}>
-                  <h3 className={toggleStyles.title}>Overview</h3>
-                  <div className={toggleStyles.text}>
-                    {item.resort.overview}
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          )}
-        </Col>
-      </Row> */}
-    </>
+    </article>
   );
 };
 

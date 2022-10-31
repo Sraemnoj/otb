@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 
-import detailStyles from "./Details.module.css";
+import detailStyles from "./Details.module.scss";
 
 const Departure = ({ date, lengthOfStay }) => {
   dayjs.extend(advancedFormat);

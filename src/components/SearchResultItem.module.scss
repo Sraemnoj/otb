@@ -1,3 +1,5 @@
+@import '../variables';
+
 .container {
   display:grid;
   grid-template-columns: 8fr 4fr;
@@ -8,18 +10,18 @@
 
 .body {
   padding:20px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .hotel{
-  color:#17317F;
+  color: $blue;
   font-size: 1.1rem;
   margin-bottom: 0.3em
 }
 
 .location{
   font-size: 1rem;
-  color: #A7A7A7;
+  color: $lightgrey;
   margin-bottom: 0.3em
 
 }

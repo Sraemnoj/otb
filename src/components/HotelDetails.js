@@ -1,4 +1,4 @@
-import itemStyles from "./SearchResultItem.module.css";
+import itemStyles from "./SearchResultItem.module.scss";
 
 const HotelDetails = ({ resort }) => {
   return (
